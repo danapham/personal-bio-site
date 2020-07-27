@@ -19,14 +19,14 @@ li {
 
 .nav-name2 {
   font-family: 'Lato', sans-serif;
-  font-size: 300%;
+  font-size: 350%;
   flex-wrap: wrap;
   text-transform: uppercase;
 }
 
 .nav-name {
   font-family: 'Lato', sans-serif;  
-  font-size: 300%;
+  font-size: 350%;
   flex-wrap: wrap;
   text-transform: uppercase;
 }
@@ -52,5 +52,23 @@ footer {
 }
 
 .project-card {
-  margin-left: 10%;
+  padding: 10% 0 0 10%;
+}
+
+.project-card-title {
+  font-family: 'Lato', sans-serif;
+  font-size: 200%;
+  padding-bottom: .75%;
+}
+
+.project-description {
+  font-family: 'Roboto', sans-serif;
+}
+
+.project-tech {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
 }
