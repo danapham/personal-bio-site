@@ -75,8 +75,12 @@ const createProjectCards = (array) => {
   }
 };
 
-createProjectCards(projects);
-
 // const navToProjects = document.getElementById('navToProjects');
 
 // navToProjects.addEventListener('click', createProjectCards(projects));
+
+const init = () => {
+  createProjectCards(projects);
+}
+
+init();
