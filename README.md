@@ -2,4 +2,4 @@
 
 This is my personal portfolio. 
 
-A live version can be viewed [here](danapham.netlify.app).
+A live version can be viewed [here](https://danapham.netlify.app/).
