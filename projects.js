@@ -66,18 +66,14 @@ const createProjectCards = (array) => {
       domString +=    `<img class="projects-screenshot" src=${array[i].screenshot} alt="screenshot of project">`;
       domString +=    `<div class="project-description">${array[i].description}</div>`;
       domString +=    `<div class="project-tech">${array[i].technologiesUsed}</div>`;
-      domString +=    `<div><a href=${array[i].url}>URL</a></div>`;
-      domString +=    `<div><a href=${array[i].githubUrl}>Github Link</a></div>`;
+      domString +=    `<div><a class="url" href=${array[i].url}>URL</a>`;
+      domString +=    `<a class="github-link" href=${array[i].githubUrl}>Github Link</a></div>`;
       domString += `</div>`;
     }
 
     printToDom("projectsPage", domString);
   }
 };
-
-// const navToProjects = document.getElementById('navToProjects');
-
-// navToProjects.addEventListener('click', createProjectCards(projects));
 
 const init = () => {
   createProjectCards(projects);
