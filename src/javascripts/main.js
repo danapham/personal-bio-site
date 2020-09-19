@@ -1,4 +1,6 @@
 import '../styles/main.scss';
+import bio from './components/bio';
+import technologies from './components/technologies';
 
 /* eslint-disable max-len */
 const projects = [
@@ -81,6 +83,8 @@ const createProjectCards = (array) => {
 };
 
 const init = () => {
+  bio.displayBio();
+  technologies.displayTechnologies();
   createProjectCards(projects);
 };
 
