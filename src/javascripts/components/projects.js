@@ -5,6 +5,7 @@ const displayProjects = () => {
   $('#navToProjects').on('click', () => {
     $('#bioPage').html('');
     $('#technologiesPage').html('');
+    $('#projectsPage').html('');
 
     const projectsArray = projects.getProjects();
     for (let i = 0; i < projectsArray.length; i++) {
@@ -19,7 +20,7 @@ const displayProjects = () => {
             <a class="url" href=${projectsArray[i].url}>URL</a>
             <a class="github-link" href=${projectsArray[i].githubUrl}>Github Link</a>
           </div>
-        </div>';`);
+        </div>`);
       }
     }
   });
