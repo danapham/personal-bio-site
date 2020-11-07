@@ -1,0 +1,31 @@
+{
+  "projects" : {
+    "-MLQVI8cGD-gbTcigckW" : {
+      "available" : true,
+      "description" : "A sorting hat for the modern age. Geared towards the next generation of Hogwarts professors, this web application speeds up the house-sorting process. Simply enter a first year's name and the digial sorting hat sorts the student in less than a second. Less time sorting, more time feasting!",
+      "githubUrl" : "https://github.com/danapham/sorting-hat",
+      "screenshot" : "https://i.ibb.co/5n3dP4D/sortinghat.png",
+      "technologiesUsed" : "HTML, CSS, Vanilla JavaScript, Bootstrap",
+      "title" : "Digital Sorting Hat",
+      "url" : "https://sortinghatapp.netlify.app/"
+    },
+    "-MLQVMl12Pw6wfizVzu-" : {
+      "available" : true,
+      "description" : "A single page application that displays pet dinos in a dino kennel. The user can navigate between the kennel, hospital, and graveyard. Dinos can be fed or pet to increase their life points. They can also be sent on an adventure or released from the kennel. Each dino has a log that can be viewed of their various adventures.",
+      "githubUrl" : "https://github.com/danapham/dino-kennel",
+      "screenshot" : "https://i.ibb.co/gvn0rBh/dino-kennel.png",
+      "technologiesUsed" : "JavaScript, Jquery, Bootstrap",
+      "title" : "Dino Kennel",
+      "url" : "https://dana-dinokennel.netlify.app/"
+    },
+    "-MLQVPVUHVG1mI42R2Er" : {
+      "available" : true,
+      "description" : "A restaurant management app for a fictitional French restaurant. The restaurant manager can use this app to keep track of their menu items, ingredients inventory, reservations, staff, and restaurant orders. Additionally, the manager can pull reports for the top ten most popular and least popular menu items. ",
+      "githubUrl" : "https://github.com/nss-evening-cohort-13/michelin-star-restaurant-dashboard-michelin-star-restaurant-dashboard",
+      "screenshot" : "https://camo.githubusercontent.com/b08258c92c8783b1b611c55835f0c5dcfbc461b19adeb5aaf210c3af48ebbe6b/68747470733a2f2f692e706f7374696d672e63632f6a3230565763316a2f617574682d6d656e752e706e67",
+      "technologiesUsed" : "JavaScript, Jquery, Bootstrap, Firebase, Webpack",
+      "title" : "Le Baguette",
+      "url" : "https://le-baguette-e03bd.web.app/"
+    }
+  }
+}
