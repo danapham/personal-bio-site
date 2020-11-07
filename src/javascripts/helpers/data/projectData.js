@@ -13,7 +13,7 @@ const objToArray = (objOfObjs) => {
 const getProjects = () => new Promise((resolve, reject) => {
   axios
     .get(`${baseUrl}/projects.json`)
-    .then((res) => resolve(objToArray(res)))
+    .then((res) => resolve(objToArray(res.data)))
     .catch((error) => reject(error));
 });
 

@@ -1,4 +1,3 @@
-/* eslint-disable max-len */
 const displayBio = () => {
   $('#navToBio').on('click', () => {
     $('#technologiesPage').html('');
