@@ -7,7 +7,6 @@ const displayProjects = () => {
     $('#projectsPage').html('');
 
     projectData.getProjects().then((res) => {
-      console.log(res);
       for (let i = 0; i < res.length; i += 1) {
         if (res[i].available === true) {
           $('#projectsPage').append(`
