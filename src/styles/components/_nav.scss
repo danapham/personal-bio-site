@@ -1,0 +1,46 @@
+@import '../universal/';
+
+#nav {
+  position: fixed;
+  right: 2%;
+  top: 25%;
+}
+
+.nav-link {
+  list-style-type: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 100%;
+}
+
+.nav-link > a {
+  text-decoration: none;
+  color: inherit;
+  letter-spacing: .5%;
+  display: inline-block;
+  transition: all .15s ease-in-out;
+}
+
+.nav-link > a:hover {
+  transform: scale(1.5);
+  // font-size: 120%;
+  opacity: .6;
+}
+
+.navLinks-html-page {
+  text-align: right;
+  font-size: 150%;
+}
+
+/* FOOTER STYLING */
+
+footer {
+  border-top: lightgray;
+  border-right: white;
+  border-bottom: white;
+  border-left: white;
+  border-style: dotted;
+  border-width: .1em;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}

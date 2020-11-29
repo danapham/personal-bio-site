@@ -1,0 +1,44 @@
+.project-card {
+  font-family: $primary-font;
+  margin: 5% 15%;
+}
+
+.project-card-title {
+  font-weight: 200;
+  font-size: 200%;
+  font-family: $secondary-font;
+  text-transform: uppercase;
+}
+
+.projects-screenshot {
+  width: 100%;
+}
+
+.project-description {
+  font-weight: 300;
+  padding-top: 1%;
+  font-size: 120%;
+  font-family: $primary-font;
+}
+
+.project-tech {
+  font-weight: 500;
+  padding-top: .75%;
+  font-size: 100%;
+}
+
+.project-card a {
+  font-size: 90%;
+  width: 20%;
+  padding-top: .5%;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.project-card a:hover {
+  opacity: .6;
+}
+
+.github-link {
+  padding-left: 1%;
+}

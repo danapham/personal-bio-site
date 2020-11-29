@@ -2,9 +2,8 @@ import projectData from '../helpers/data/projectData';
 
 const displayProjects = () => {
   $('#navToProjects').on('click', () => {
-    $('#bioPage').html('');
-    $('#technologiesPage').html('');
-    $('#projectsPage').html('');
+    $('#app').html('');
+    $('#app').html('<div id="projectsPage" class="page-container"></div>');
 
     projectData.getProjects().then((res) => {
       for (let i = 0; i < res.length; i += 1) {

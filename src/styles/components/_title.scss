@@ -1,0 +1,19 @@
+.name {
+  font-family: $primary-font;
+  font-weight: 900;
+  font-size: 400%;
+  text-transform: uppercase;
+  letter-spacing: .35em;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+.position {
+  font-family: $secondary-font;
+  font-weight: 300;
+  font-size: 200%;
+  letter-spacing: .25em;
+  text-transform: uppercase;
+  margin-left: 2%;
+  font-style: italic;
+}
