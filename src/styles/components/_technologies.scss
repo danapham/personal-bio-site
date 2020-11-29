@@ -1,0 +1,27 @@
+.technologies-list {
+  list-style-type: none;
+}
+
+.technology-page {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.list-group {
+  margin-right: 3%;
+  margin-left: 3%;
+  margin-bottom: 5%;
+  border: 1px solid black;
+  padding: 2%;
+  width: 40%;
+  text-align: center;
+}
+
+.technologies-list > li {
+  font-size: 120%;
+}
+
+.list-group > h5 {
+  font-size: 175%;
+}
