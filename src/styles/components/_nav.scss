@@ -2,7 +2,7 @@
 
 #nav {
   position: fixed;
-  right: 0;
+  right: 2%;
   top: 25%;
 }
 
@@ -13,15 +13,17 @@
   font-size: 100%;
 }
 
-a {
-  font-family: 'Montserrat', sans-serif;
+.nav-link > a {
   text-decoration: none;
   color: inherit;
   letter-spacing: .5%;
+  display: inline-block;
+  transition: all .15s ease-in-out;
 }
 
-li a:hover {
-  font-size: 105%;
+.nav-link > a:hover {
+  transform: scale(1.5);
+  // font-size: 120%;
   opacity: .6;
 }
 

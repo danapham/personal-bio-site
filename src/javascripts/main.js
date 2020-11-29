@@ -11,6 +11,7 @@ const init = () => {
   bio.displayBio();
   technologies.displayTechnologies();
   projects.displayProjects();
+  bio.initialLoad();
 };
 
 init();
