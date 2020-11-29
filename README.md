@@ -4,6 +4,11 @@ This is my personal portfolio.
 
 A live version can be viewed [here](https://danapham.netlify.app/).
 
-# Technologies Used
+## Screenshot
+![Screenshot of projects page](https://scrn.li/Ljt85Vi05nQjMy)
+
+## Technologies Used
 - Javascript
-- HTML/CSS
+- Jquery
+- HTML/CSS/SASS
+- Webpack
